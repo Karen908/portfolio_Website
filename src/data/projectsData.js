@@ -1,7 +1,7 @@
-import HomeAgSystem from "../assets/AGSystemWeb/homeAGSystem.png";
-import CommentsChatbox from "../assets/AGSystemWeb/commentsChatbox.png";
-import ProductAG from "../assets/AGSystemWeb/productAG.png";
-import ProductDescription from "../assets/AGSystemWeb/productDescription.png";
+import HomeAgSystem from "../assets/aGSystemWeb/homeAGSystem.png";
+import CommentsChatbox from "../assets/aGSystemWeb/commentsChatbox.png";
+import ProductAG from "../assets/aGSystemWeb/productAG.png";
+import ProductDescription from "../assets/aGSystemWeb/productDescription.png";
 
 import HomeC from "../assets/cn_Mecab/homeC.png";
 import loginC from "../assets/cn_Mecab/loginC.png";
