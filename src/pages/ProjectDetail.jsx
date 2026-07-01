@@ -38,7 +38,7 @@ function ProjectDetail({ language, setLanguage, darkMode, setDarkMode }) {
       />
 
       {/* Contenido */}
-      <div className="ml-40 p-14 py-10">
+      <div className="p-5 ml-0 lg:ml-52 md:p-10 lg:p-20 py-10">
         <div
           className={` grid lg:grid-cols-2
     rounded-3xl

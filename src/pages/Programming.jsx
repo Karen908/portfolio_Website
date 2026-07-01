@@ -24,7 +24,7 @@ function Programming({ language, setLanguage, darkMode, setDarkMode }) {
         t={t}
       />
 
-      <div className="ml-40 p-20">
+      <div className="p-5 ml-0 lg:ml-52 md:p-10 lg:p-20">
         <h1 className="text-5xl font-bold mb-10">{t.programming}</h1>
 
         <div className="grid md:grid-cols-2 gap-6">

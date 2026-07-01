@@ -25,7 +25,9 @@ function Home({ language, setLanguage, darkMode, setDarkMode }) {
       />
 
       {/* Main Content */}
-      <div className="ml-40 relative z-10 w-[calc(100%-6rem)]">
+      <div
+        className=" relative z-10 w-full lg:ml-52 lg:w-[calc(100%-13rem)]"
+      >
         <HeroSection darkMode={darkMode} t={t} language={language} />
 
         <FocusSection darkMode={darkMode} t={t} />
