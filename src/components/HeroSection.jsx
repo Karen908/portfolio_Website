@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import certificate from "../assets/ingles.pdf";
 import cvEN from "../assets/curriculumEnglish.pdf";
 import cvES from "../assets/currículumSpanish.pdf";
+import profilePicture from "../assets/profilePicture.png";
 
 function HeroSection({ t, darkMode, language }) {
   const cvFile = language === "EN" ? cvEN : cvES;
@@ -146,8 +147,8 @@ function HeroSection({ t, darkMode, language }) {
               }`}
             >
               <img
-                src="src\assets\profilePicture.png"
-                alt="profile"
+                src={profilePicture}
+                alt="Karen Daniela Perez"
                 className="w-full h-full object-cover rounded-full"
               />
             </div>
