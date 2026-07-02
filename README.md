@@ -10,7 +10,7 @@ https://portfolio-website-hw0hdu1hy.vercel.app/
 
 This is the main landing page of the portfolio. It includes a professional introduction, links to my social profiles, downloadable resume, language selection, and featured areas of expertise.
 
-![Home](src\screenshots\home.png)
+![Home](src/screenshots/home.png)
 
 ## 🎯 Focus Areas & Skills
 
@@ -19,7 +19,7 @@ This section highlights my main focus areas and technical skills developed throu
 It includes skills such as programming, databases, web development, data analysis, and other key technologies that I apply in my projects.
 
 ---
-![FocusAreasSkills](src\screenshots\focusAreasSkills.png)
+![FocusAreasSkills](src/screenshots/focusAreasSkills.png)
 
 
 ## 💻 Project Program
@@ -28,14 +28,14 @@ In this section, you will find all the programming projects I have developed. Ea
 
 Here you can explore everything from basic projects to more complete applications that showcase my progress as a developer and my ability to build functional and well-structured solutions.
 
-![ProjectProgram](src\screenshots\programmingProjects.png)
+![ProjectProgram](src/screenshots/programmingProjects.png)
 
 
 ## 💻 Programming
 
 This section showcases software development projects, including project descriptions, technologies used, screenshots, and source code repositories.
 
-![Programming](src\screenshots\projectDetails.png)
+![Programming](src/screenshots/projectDetails.png)
 
 
 ## ✨ Features
