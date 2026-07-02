@@ -40,14 +40,14 @@ function FocusSection({ darkMode, t }) {
           <ProjectCard
             title={t.dataAnalysis}
             description={t.descriptionAnalysis}
-            icon="data"
+            icon="DataAnalysis"
             color={
               darkMode
                 ? "bg-gradient-to-br from-purple-600/40 to-pink-500/20"
                 : "bg-gradient-to-br from-purple-900 to-fuchsia-800"
             }
             button={t.comingSoon}
-            link="/data-analysis"
+            link="/dataAnalisis"
             darkMode={darkMode}
           />
 
