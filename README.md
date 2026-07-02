@@ -1,16 +1,84 @@
-# React + Vite
+# 💼 Karen Perez Portfolio
+A modern and responsive portfolio developed with React and Vite to showcase my software development, data analytics, and ServiceNow projects.
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Live Demo
+https://portfolio-website-hw0hdu1hy.vercel.app/ 
 
-Currently, two official plugins are available:
+## 📸 Preview
+## 🏠 Home
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is the main landing page of the portfolio. It includes a professional introduction, links to my social profiles, downloadable resume, language selection, and featured areas of expertise.
 
-## React Compiler
+![Home](src\screenshots\home.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Focus Areas & Skills
 
-## Expanding the ESLint configuration
+This section highlights my main focus areas and technical skills developed throughout my learning and professional journey. It brings together my core competencies in software development, data analysis, and technology tools, reflecting my continuous growth in the tech field.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It includes skills such as programming, databases, web development, data analysis, and other key technologies that I apply in my projects.
+
+---
+![FocusAreasSkills](src\screenshots\focusAreasSkills.png)
+
+
+## 💻 Project Program
+
+In this section, you will find all the programming projects I have developed. Each project represents a practical application of my knowledge, where I have worked on solving real problems, implementing business logic, and using different technologies.
+
+Here you can explore everything from basic projects to more complete applications that showcase my progress as a developer and my ability to build functional and well-structured solutions.
+
+![ProjectProgram](src\screenshots\programmingProjects.png)
+
+
+## 💻 Programming
+
+This section showcases software development projects, including project descriptions, technologies used, screenshots, and source code repositories.
+
+![Programming](src\screenshots\projectDetails.png)
+
+
+## ✨ Features
+
+- Responsive Design
+- Dark Mode
+- English / Spanish
+- Download Resume
+- Programming Portfolio
+- Data Analytics Portfolio
+- ServiceNow Portfolio
+
+## 🛠 Technologies
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- Framer Motion
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/Karen908/portfolio_Website.git
+```
+
+```bash
+cd portfolio_Website
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+## 📬 Contact
+
+LinkedIn
+
+https://linkedin.com/in/karenperezp
+
+GitHub
+
+https://github.com/Karen908
