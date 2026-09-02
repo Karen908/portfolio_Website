@@ -1,21 +1,17 @@
 export const translations = {
   EN: {
+    // ==========================================
+    // NAVIGATION
+    // ==========================================
     language: "Language",
-
-    //Pronto
-    comingSoon: "Coming Soon",
-    comingSoonTitle: "Coming Soon",
-    comingSoonDescription:
-      "This section is currently under development. New projects will be available soon.",
-
-    programming: "Programming Projects",
-
     navigation: "Navigation",
     home: "Home",
     projectsMenu: "Projects",
-    portfolio: "portfolio",
+    portfolio: "Portfolio",
 
-    // Hero
+    // ==========================================
+    // HERO
+    // ==========================================
     role: "WEB DEVELOPER",
     title: "HI, I AM",
     description:
@@ -23,7 +19,9 @@ export const translations = {
     cv: "Download CV",
     certificate: "English Certificate",
 
-    // Focus Area
+    // ==========================================
+    // FOCUS AREAS
+    // ==========================================
     focusSubtitle: "EXPLORE MY WORK",
     focusTitle: "Focus Areas",
 
@@ -31,43 +29,58 @@ export const translations = {
     descriptionDev:
       "Development of web applications, APIs, and scalable solutions with modern technologies.",
 
-    dataAnalysis: "Data Analysis",
+    dataAnalysis: "Data Analysis Projects",
     descriptionAnalysis:
-      "Transforming data into key information for strategy automation.",
+      "Transforming data into insights that support better decisions and process improvement.",
 
     serviceNow: "ServiceNow",
     descriptionServiceNow:
       "Automation and optimization of business processes on the platform.",
 
-    // Skills
+    // ==========================================
+    // PROJECTS
+    // ==========================================
+    programming: "Programming Projects",
+    dataAnalysisProjects: "Data Analysis Projects",
+
+    projects: "View Project →",
+    code: "View Code",
+    demo: "View Demo",
+
+    // ==========================================
+    // PROJECT DETAILS
+    // ==========================================
+    features: "Features",
+    results: "Results",
+
+    // ==========================================
+    // SKILLS
+    // ==========================================
     skillsSubtitle: "KEY SKILLS",
     skillsTitle: "Skills",
 
-    projects: "View Project →",
-    code: "View code",
-    demo: "View Demo",
-
-    //ProjectDetails
-    features: "Features",
-    results: "Results",
+    // ==========================================
+    // COMING SOON
+    // ==========================================
+    comingSoon: "Coming Soon",
+    comingSoonTitle: "Coming Soon",
+    comingSoonDescription:
+      "This section is currently under development. New projects will be available soon.",
   },
 
   ES: {
+    // ==========================================
+    // NAVEGACIÓN
+    // ==========================================
     language: "Idioma",
-
-    //Pronto
-    comingSoon: "Próximamente",
-    comingSoonTitle: "Próximamente",
-    comingSoonDescription:
-      "Esta sección está en desarrollo. Muy pronto encontrarás nuevos proyectos.",
-      
-    programming: "Proyectos de programación",
     navigation: "Navegación",
     home: "Inicio",
     projectsMenu: "Proyectos",
-    portfolio: "portafolio",
+    portfolio: "Portafolio",
 
-    // Hero
+    // ==========================================
+    // HERO
+    // ==========================================
     role: "DESARROLLADORA WEB",
     title: "HOLA, SOY",
     description:
@@ -75,7 +88,9 @@ export const translations = {
     cv: "Descargar CV",
     certificate: "Certificado de Inglés",
 
-    // Área de enfoque
+    // ==========================================
+    // ÁREAS DE ENFOQUE
+    // ==========================================
     focusSubtitle: "EXPLORA MI TRABAJO",
     focusTitle: "Áreas de enfoque",
 
@@ -83,24 +98,42 @@ export const translations = {
     descriptionDev:
       "Desarrollo de aplicaciones web, APIs y soluciones escalables con tecnologías modernas.",
 
-    dataAnalysis: "Análisis de Datos",
+    dataAnalysis: "Proyectos de Análisis de Datos",
     descriptionAnalysis:
-      "Transformación de datos en información clave para la automatización de estrategias.",
+      "Transformación de datos en información clave para facilitar la toma de decisiones y mejorar procesos.",
 
     serviceNow: "ServiceNow",
     descriptionServiceNow:
       "Automatización y optimización de procesos empresariales en la plataforma.",
 
-    // Habilidades
-    skillsSubtitle: "HABILIDADES PRINCIPALES",
-    skillsTitle: "Habilidades",
+    // ==========================================
+    // PROYECTOS
+    // ==========================================
+    programming: "Proyectos de Programación",
+    dataAnalysisProjects: "Proyectos de Análisis de Datos",
 
     projects: "Ver Proyecto →",
     code: "Ver Código",
     demo: "Ver Demo",
 
-    //ProjectDetails
+    // ==========================================
+    // DETALLES DE PROYECTOS
+    // ==========================================
     features: "Características",
     results: "Resultados",
+
+    // ==========================================
+    // HABILIDADES
+    // ==========================================
+    skillsSubtitle: "HABILIDADES PRINCIPALES",
+    skillsTitle: "Habilidades",
+
+    // ==========================================
+    // PRÓXIMAMENTE
+    // ==========================================
+    comingSoon: "Próximamente",
+    comingSoonTitle: "Próximamente",
+    comingSoonDescription:
+      "Esta sección está en desarrollo. Muy pronto encontrarás nuevos proyectos.",
   },
 };

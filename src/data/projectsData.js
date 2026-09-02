@@ -1,29 +1,38 @@
-import HomeAgSystem from "../assets/aGSystemWeb/homeAGSystem.png";
-import CommentsChatbox from "../assets/aGSystemWeb/commentsChatbox.png";
-import ProductAG from "../assets/aGSystemWeb/productAG.png";
-import ProductDescription from "../assets/aGSystemWeb/productDescription.png";
+//imports Dev
+import HomeAgSystem from "../assets/projectsDev/ag-system-web/homeAGSystem.png";
+import CommentsChatbox from "../assets/projectsDev/ag-system-web/commentsChatbox.png";
+import ProductAG from "../assets/projectsDev/ag-system-web/productAG.png";
+import ProductDescription from "../assets/projectsDev/ag-system-web/productDescription.png";
 
-import HomeC from "../assets/cn_Mecab/homeC.png";
-import loginC from "../assets/cn_Mecab/loginC.png";
-import Navbar from "../assets/cn_Mecab/navbar.png";
-import CategoryC from "../assets/cn_Mecab/categoryC.png";
-import Post from "../assets/cn_Mecab/post.png";
-import ScoreC from "../assets/cn_Mecab/scoreC.png";
-import Profile from "../assets/cn_Mecab/profile.png";
-import YourPost from "../assets/cn_Mecab/yourPost.png";
+import HomeC from "../assets/projectsDev/cn-mecab/homeC.png";
+import loginC from "../assets/projectsDev/cn-mecab/loginC.png";
+import Navbar from "../assets/projectsDev/cn-mecab/navbar.png";
+import CategoryC from "../assets/projectsDev/cn-mecab/categoryC.png";
+import Post from "../assets/projectsDev/cn-mecab/post.png";
+import ScoreC from "../assets/projectsDev/cn-mecab/scoreC.png";
+import Profile from "../assets/projectsDev/cn-mecab/profile.png";
+import YourPost from "../assets/projectsDev/cn-mecab/yourPost.png";
 
-import LoginPharmacy from "../assets/pharmacy/loginPharmacy.png";
-import Product from "../assets/pharmacy/product.png";
-import Reports from "../assets/pharmacy/reports.png";
-import Category from "../assets/pharmacy/category.png";
+import LoginPharmacy from "../assets/projectsDev/pharmacy/loginPharmacy.png";
+import Product from "../assets/projectsDev/pharmacy/product.png";
+import Reports from "../assets/projectsDev/pharmacy/reports.png";
+import Category from "../assets/projectsDev/pharmacy/category.png";
 
-import Home from "../assets/recycleEasily/home.jpeg";
-import CategoryR from "../assets/recycleEasily/category.jpeg";
-import Questionnaire from "../assets/recycleEasily/questionnaire.jpeg";
-import Score from "../assets/recycleEasily/score.jpeg";
-import DescripCategory from "../assets/recycleEasily/descripCategory.jpeg";
+import Home from "../assets/projectsDev/recycle-easily/home.jpeg";
+import CategoryR from "../assets/projectsDev/recycle-easily/category.jpeg";
+import Questionnaire from "../assets/projectsDev/recycle-easily/questionnaire.jpeg";
+import Score from "../assets/projectsDev/recycle-easily/score.jpeg";
+import DescripCategory from "../assets/projectsDev/recycle-easily/descripCategory.jpeg";
+
+//imports analytics
+
+import DashboardAdidas from "../assets/analytics/adidas-sports-analytics/01-mysql-database.png";
+import ModeloAdidas from "../assets/analytics/adidas-sports-analytics/02-powerbi-model.png";
+import DaxAdidas from "../assets/analytics/adidas-sports-analytics/03-dax-measures.jpg";
+import DiagramaERAdidas from "../assets/analytics/adidas-sports-analytics/04-dashboard.png";
 
 export const projects = [
+  //Projects dev
   {
     id: "web-site-ag-system",
     type: "web",
@@ -288,4 +297,84 @@ export const projects = [
     github: "https://github.com/Karen908/recicla-facil.git",
     images: [Home, CategoryR, DescripCategory, Questionnaire, Score],
   },
+
+  //projects analitics
+
+  {
+  id: "adidas-sports-analytics",
+  type: "data",
+  category: "data-analysis",
+  title: {
+    ES: "Adidas Sports Analytics",
+    EN: "Adidas Sports Analytics",
+  },
+
+  badge: {
+    ES: "📊 Proyecto de Análisis de Datos",
+    EN: "📊 Data Analytics Project",
+  },
+
+  technologies: [
+    "Power BI",
+    "DAX",
+    "MySQL",
+    "SQL",
+    "Data Modeling",
+    "Data Visualization"
+  ],
+
+  description: {
+    ES: "Dashboard ejecutivo desarrollado en Power BI para analizar el comportamiento de ventas de Adidas durante 2024 y 2025. El proyecto incluye modelado de datos, generación de información sintética mediante procedimientos almacenados en MySQL, creación de métricas DAX y visualizaciones interactivas para apoyar la toma de decisiones.",
+    EN: "Executive dashboard developed in Power BI to analyze Adidas sales performance during 2024 and 2025. The project includes data modeling, synthetic data generation using MySQL stored procedures, DAX measures, and interactive visualizations designed to support business decision-making.",
+  },
+
+  features: {
+    ES: [
+      "Base de datos relacional diseñada en MySQL",
+      "Generación automática de clientes, ventas y detalle de ventas mediante procedimientos almacenados",
+      "Modelo estrella optimizado para análisis",
+      "11 medidas DAX personalizadas",
+      "Dashboard interactivo con filtros dinámicos",
+      "Análisis por ciudad, categoría, producto y cliente",
+      "Ranking de clientes y métricas de desempeño comercial"
+    ],
+
+    EN: [
+      "Relational database designed in MySQL",
+      "Automatic generation of customers, sales, and sales details using stored procedures",
+      "Star schema optimized for analytics",
+      "11 custom DAX measures",
+      "Interactive dashboard with dynamic filters",
+      "Analysis by city, category, product, and customer",
+      "Customer ranking and business performance metrics"
+    ]
+  },
+
+  results: {
+    ES: [
+      "599 ventas analizadas",
+      "490 clientes únicos",
+      "1.75 mil millones en ventas simuladas",
+      "Modelo analítico construido desde cero",
+      "Implementación de SQL, Power BI y DAX en un caso de negocio completo"
+    ],
+
+    EN: [
+      "599 analyzed sales",
+      "490 unique customers",
+      "1.75 billion in simulated sales",
+      "Analytical model built from scratch",
+      "Implementation of SQL, Power BI, and DAX in a complete business case"
+    ]
+  },
+
+  github: "https://github.com/Karen908/adidas-sports-analytics.git",
+
+  images: [
+    DashboardAdidas,
+    ModeloAdidas,
+    DaxAdidas,
+    DiagramaERAdidas
+  ]
+}
 ];

@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Programming from "./pages/Programming";
 import ProjectDetail from "./pages/ProjectDetail";
 import ComingSoon from "./pages/ComingSoon";
+import DataAnalysis from "./pages/DataAnalysis";
 
 function App() {
   const [language, setLanguage] = useState("EN");
@@ -40,7 +41,7 @@ function App() {
       <Route
         path="/dataAnalisis"
         element={
-          <ComingSoon
+          <DataAnalysis
             title="Data Analysis"
             language={language}
             setLanguage={setLanguage}
